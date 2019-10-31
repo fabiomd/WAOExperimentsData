@@ -1,0 +1,6 @@
+#S(RANDOM-STATE :STATE #.(MAKE-ARRAY 627 :ELEMENT-TYPE '(UNSIGNED-BYTE 32)
+                                     :INITIAL-CONTENTS
+                                     '(0 2567483615 324 2472175336 1228616984
+                                       1273843614 3886196267 96715333
+                                       2154618779 856796573 1000723200
+                                       4169020462 ...)))
