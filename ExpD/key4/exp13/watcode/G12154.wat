@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "increment" (func $increment)) (func $increment (param $0 i32) (param $1 i32) (param $2 i32) (result i32)  (f64.copysign  (f32.nearest  (get_local $2)  (get_local $2))  (f32.eq  (get_local $2)  (local "g12155" f64))) (get_local $1)) )

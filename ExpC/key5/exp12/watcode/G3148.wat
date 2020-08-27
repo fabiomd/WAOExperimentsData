@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "multwo" (func $multwo)) (func $multwo (param $0 i32) (param $1 i32) (result i32)  (i32.le_u  (local "g3149" i32)  (local "g3150" i32))) )

@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "increment" (func $increment)) (func $increment (param $0 i32) (param $1 i32) (param $2 i32) (result i32)  (local $4 i32) (f32.convert_u/i32   (f32.add  (i32.convert_s/f32   (i32.gt_u  (local "g12988" f32)  (get_local $1)))  (local "g12989" i32))) (get_local $1)) )

@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "multwo" (func $multwo)) (func $multwo (param $0 i32) (param $1 i32) (result i32)  (local $3 i32) (set_local $3  (get_local $1)) (set_local $2  (i32.mul  (get_local $0)  (get_local $3))) (i64.gt_s  (get_local $1)  (i64.gt_s  (local "g1642" i64)  (i64.rotl  (get_local $1)  (local "g1643" f64))))) )

@@ -1,1 +1,0 @@
-(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "sumtwo" (func $sumtwo)) (func $sumtwo (param $0 i32) (param $1 i32) (result i32)  (f32.neg  (local "g173802" i64)  (if  (local "g173842" f32)   (i64.convert_s/f32   (i64.clz  (local "g173843" i64)  (local "g173844" f32)))   (get_local $1)))) )

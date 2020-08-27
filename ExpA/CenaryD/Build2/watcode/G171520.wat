@@ -1,1 +1,0 @@
-(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "sumtwo" (func $sumtwo)) (func $sumtwo (param $0 i32) (param $1 i32) (result i32)  (i64.ge_u  (get_local $1)  (i32.or  (local "g171521" f64)  (if  (local "g171522" i64)   (local "g171523" i32)   (local "g171524" i64))))) )

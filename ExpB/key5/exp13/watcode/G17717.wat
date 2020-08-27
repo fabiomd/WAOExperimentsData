@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "divtwo" (func $divtwo)) (func $divtwo (param $0 i32) (param $1 i32) (result i32)  (f32.copysign  (local "g17718" i64)  (f32.div  (get_local $1)  (f64.sqrt  (local "g17719" f32)  (i32.convert_u/f64   (i32.div_s  (local "g17720" i32)  (local "g17721" f64))))))) )

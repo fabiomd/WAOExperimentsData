@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "divtwo" (func $divtwo)) (func $divtwo (param $0 i32) (param $1 i32) (result i32)  (f64.convert_s/i32   (f64.lt  (i32.convert_s/f64   (i32.popcnt  (i64.lt_u  (local "g10612" i64)  (get_local $1))  (local "g10613" i32)))  (get_local $0)))) )

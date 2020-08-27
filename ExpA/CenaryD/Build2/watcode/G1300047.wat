@@ -1,1 +1,0 @@
-(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "sumtwo" (func $sumtwo)) (func $sumtwo (param $0 i32) (param $1 i32) (result i32)  (f32.ge  (f64.eq  (f32.nearest  (f64.neg  (f64.ceil  (local "g1300048" f32)  (get_local $0))  (local "g1300049" f64))  (get_local $0))  (local "g1300050" f32))  (get_local $0))) )

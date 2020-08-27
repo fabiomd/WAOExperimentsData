@@ -1,0 +1,1 @@
+(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "divtwo" (func $divtwo)) (func $divtwo (param $0 i32) (param $1 i32) (result i32)  (local $2 i64) (i32.convert_s/i64   (get_local $0)) (i32.eq  (get_local $1)  (f32.convert_u/i32   (f32.floor  (get_local $1)  (local "g845" i64)))) (get_local $3)) )
