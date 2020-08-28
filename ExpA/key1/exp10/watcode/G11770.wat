@@ -1,1 +1,0 @@
-(module (table 0 anyfunc) (memory $0 1) (export "memory" (memory $0)) (export "increment" (func $increment)) (func $increment (param $0 i32) (param $1 i32) (param $2 i32) (result i32)  (local "g11771" f32) (get_local $1)) )
